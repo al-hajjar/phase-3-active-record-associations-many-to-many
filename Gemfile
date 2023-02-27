@@ -25,6 +25,8 @@ group :development do
   # Used to generate seed data
   # https://github.com/faker-ruby/faker
   gem "faker", "~> 2.18"
+
+  gem 'rspec', '~> 3.12'
   
   gem "pry"
 end
@@ -32,6 +34,6 @@ end
 # These gems will only be used when we are running tests
 group :test do
   gem "database_cleaner"
-  gem "rspec"
+  # gem "rspec"
 end
 
